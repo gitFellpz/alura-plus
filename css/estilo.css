@@ -67,6 +67,11 @@ body{
     padding: 0px 70px;
 }
 
+.assina__box__img{
+    position: relative;
+}
 .assina__img--celular{
-    display: absolute;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
 }
