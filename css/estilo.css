@@ -1,0 +1,78 @@
+body{
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.combo__plus.container{
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.combo__plus__botao{
+    background-color: var(--botao-azul);
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.combo__plus__botao.combo__plus__botao--alura{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.combo__plus__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.combo__plus__obs{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.combo__plus__img{
+    margin: 1em 0 2em 0;
+}
+
+.combo__plus__caixa{
+    margin-left: 6em;
+}
+
+/* 
+Uso do grid para separar em duas colunas
+*/
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__img{
+    width: 80%;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.3em;
+}
+
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
