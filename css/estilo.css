@@ -29,6 +29,9 @@ body{
     text-decoration: none;
     margin-bottom: 1em;
 }
+.combo__plus__botao:hover{
+    background-color: var(--botao-azul-efeito);
+}
 
 .combo__plus__botao.combo__plus__botao--alura{
     background-color: transparent;
@@ -105,4 +108,39 @@ Uso do grid para separar em duas colunas
 .item__titulo{
     font-size: 32px;
     color: var(--branco-principal);
+}
+
+
+.rodape{
+    text-align: center;
+    margin: 0 4em;
+    margin-top: 10em;
+}
+
+.rodape__box{
+    display: flex;
+    margin-top: 3em;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rodape__item a{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--branco-principal);
+    transition: 0.3s;
+}
+
+.rodape__item a:hover{
+    color: var(--botao-azul);
+}
+
+.rodape__item a:active{
+    color: purple;
+}
+
+.rodape__texto{
+    margin: 2em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
 }
